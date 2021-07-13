@@ -104,6 +104,11 @@ header,footer{
 header{
       padding: 2%;
 }
+@media screen and (max-width: 599px){
+      .hov{
+            font-size: 40px;
+      }
+}
 
 @media only screen and (min-width: 768px){
       .menu-opcoes{
