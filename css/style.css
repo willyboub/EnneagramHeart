@@ -1,0 +1,124 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+	background-color: #1C1C1C;
+}
+.container{
+	background-color: #363636;
+	width: 70%;
+	margin-right: auto;
+      margin-left: auto;
+      position: relative;
+      margin-top: 6%;
+      margin-bottom: 13%;
+      border: thick  groove  rgb(54,54,54);
+      border-width: 1px;
+}
+.fixo{
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+      background-color: rgba(0, 0, 0,); /*e talvez tbm tirar a transparência(q é só tirar esse 0.6)*/
+      margin-top: 14%; /*mas depois aqui você pode colocar um margin-top(quando vc aprender a fazer
+                          aquele negocio legal do site https://orientallline.com/light-on-me/)*/
+    }
+.naofixo{
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+      background-image: linear-gradient(to right,violet,blue);
+      padding: 2.8%;
+      margin-top: ;
+}
+.hov{
+      font-family: Cooper Black;
+      font-size: 80px;
+      margin-top: 10px;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+      color: #1C1C1C ;
+}
+a{
+      color: white;
+      text-decoration: none;
+}
+.hov a:hover {
+  color: #1C1C1C;
+  background-color: transparent;
+}
+a:hover{
+      color: purple;
+}
+
+.naofixo2{
+      background-color: rgba(28,28,28);
+      padding: 5px;
+
+}
+
+.imglogo{
+    position: absolute;
+    top: 15px;
+    left: 3%;
+    width: 150px;
+    height: 120px;
+  }
+
+h1{
+      color: white;
+      font-family: Berlin Sans FB;
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 1em;
+      margin-top: 0.5em;
+}
+p{
+     color: white;
+     font-family: Berlin Sans FB; 
+     margin-left: 5%;
+     margin-right: 5%;
+     font-size: 20px;
+}
+h2{
+      color: white;
+      font-family: Berlin Sans FB; 
+}
+
+header,footer{
+      background-color:rgba(0,0,0); 
+      padding:1%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.5em;
+      line-height: 1.5em;
+}
+header{
+      padding: 2%;
+}
+
+@media only screen and (min-width: 768px){
+      .menu-opcoes{
+    position: absolute;
+    right: 5%;
+    top: 15%;
+  }
+  .menu-opcoes ul, li{
+     display: inline;
+    margin-left: 10px;
+  }
+  .ajustes{
+     line-height: 1;
+     text-align: center;
+}
+li{
+      color: white;
+      margin-left: 30px;
+      font-family: Berlin Sans FB;
+}
+
+}
